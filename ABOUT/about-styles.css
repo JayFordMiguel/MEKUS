@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../assets/img/htmlBG.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+                                                
+}
+
+/****************NAV STYLES NI FORDIE <3***************/
+
+.container-1 nav {
+    padding-top: 2.5em;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  }
+
+.contactUs {
+    color: #000000;
+    font-family: 'LT Galaxy', sans-serif;
+    font-weight: 600;
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+
+.contactUs:hover {
+    background-color: #FF8605;
+    transition: 0.5s;
+}
+
+.nav-item a {
+    color: #ebebeb;
+    font-family: 'LT Galaxy', sans-serif;
+    font-weight: 600;
+                                                
+}
+
+.nav-item a:hover {
+    color: #FF8605;
+}
+
+.active-item {
+    color: #FF8605;
+    font-family: 'LT Galaxy', sans-serif;
+    font-weight: 600;
+}
+
+.collapse .navbar-nav .active-item a {
+    color: #FF8605;
+}
+
+/**************END OF NAV STYLES***************/
+
+.aboutMEKUS {
+    width: 100%;
+}
+
+.MEKUStitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+                                                
+}
+
+.MEKUStitle h1 {
+    color: #FF8605;
+    font-size: 3em;
+    font-family: 'BRONSON', sans-serif;
+}
+
+.MEKUStitle h2 {
+    color: #ebebeb;
+    font-family: 'LT Galaxy', sans-serif;
+    font-weight: 800;
+}
+
+.aboutText {
+    color: #dedede;
+    font-family: 'LT Galaxy', sans-serif;
+    font-weight: 100;
+}

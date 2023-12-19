@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(./images/htmlBG.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+                                                
+}
+
+/****************NAV STYLES NI FORDIE <3***************/
+
+.container nav {
+    padding-top: 2.5em;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  }
+
+.contactUs {
+    color: #000000;
+    font-family: 'LT Galaxy', sans-serif;
+    font-weight: 600;
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+
+.contactUs:hover {
+    background-color: #FF8605;
+    transition: 0.5s;
+}
+
+.nav-item a {
+    color: #ebebeb;
+    font-family: 'LT Galaxy', sans-serif;
+    font-weight: 600;
+                                                
+}
+
+.nav-item a:hover {
+    color: #FF8605;
+}
+
+.active-item {
+    color: #FF8605;
+    font-family: 'LT Galaxy', sans-serif;
+    font-weight: 600;
+}
+
+.collapse .navbar-nav .active-item a {
+    color: #FF8605;
+}
+
+
+/*******************END OF NAV STYLES**************************/
+
+main .container {
+    position: relative;
+    height: 500px;
+}
+
+.RaceCardsBANNER {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.hero img {
+    padding-top:6em ;
+    width: 30em;
+}
+
+.hero p {
+    color: #ebebeb;
+    max-width: 400px;
+    margin-top: 1.5em;
+    font-family: 'LT Galaxy', sans-serif;
+    font-weight: 400;
+
+}
+
+.hero button {
+    font-family: 'LT Galaxy', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    background-color: #FF8605;
+    border-radius: 50px;
+    padding: 5px 20px;
+}
+
+
+
+/**********************FOOTER**************************/
